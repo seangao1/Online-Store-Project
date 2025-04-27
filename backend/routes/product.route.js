@@ -5,7 +5,7 @@ import { getProducts, createProduct, updateProduct, deleteProduct} from '../cont
 
 const router = express.Router();
 
-// endpoint for etting all products;
+// endpoint for getting all products;
 router.get('/', getProducts);
 
 // endpoint for adding(posting) a product

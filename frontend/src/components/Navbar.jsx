@@ -8,7 +8,7 @@ import { PiLightbulbLight } from "react-icons/pi";
 const Navbar = () => {
     const {colorMode, toggleColorMode} = useColorMode();
     return (
-        <Container maxW={"1140px"} p={4}>
+        <Container maxW={"1140px"} p={4} >
 
             <Flex
                 h={16}

@@ -68,7 +68,7 @@ cd backend
 npm install
 ```
 
-Create a `.env` file in the root of the backend folder:
+Create a `.env` file in the root folder:
 
 ```env
 PORT=3000

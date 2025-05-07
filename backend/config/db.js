@@ -10,7 +10,7 @@ export const connectDB = async () => {
 
     catch(err){
         
-        console.log(`Error: ${error.message}`);
+        console.log(`Error: ${err.message}`);
         process.exit(1) // code 1 means exit with failure, 0 means success;
 
     }

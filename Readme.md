@@ -59,36 +59,59 @@ A responsive full-stack web application for managing electronic products, built 
 
 ---
 
+
 ## 🔧 Getting Started
 
-### 1. Backend Setup
+### 1. Install All Dependencies
 
 ```bash
-cd backend
 npm install
 ```
 
-Create a `.env` file in the root folder:
+> This installs both root and `frontend/` dependencies.
+
+---
+
+### 2. Create Environment Variables
+
+Create a `.env` file **in the root of the project**:
 
 ```env
 PORT=3000
 MONGO_URL=your_mongo_connection_string
 ```
 
-> ℹ️ The `NODE_ENV` is automatically handled via `package.json` scripts.
+> ℹ️ `NODE_ENV` is already managed by scripts in `package.json`.
 
-Start the backend server:
+---
+
+### 3. Start Development Server (Backend + API)
+
 ```bash
 npm run dev
 ```
 
-### 2. Frontend Setup
+> This starts the backend server using `nodemon` for hot-reloading.
+
+> For frontend development with hot module reload (HMR), open a new terminal tab:
 
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
+
+---
+
+### 4. Production Build & Start
+
+```bash
+npm run build
+npm run start
+```
+
+- `npm run build` installs frontend dependencies and builds the app into `frontend/dist`
+- `npm run start` runs backend with `NODE_ENV=production` and serves static files from `frontend/dist`
+
 
 ---
 

@@ -3,7 +3,17 @@
 
 A responsive full-stack web application for managing electronic products, built with **Node.js**, **Express**, **MongoDB**, and **React**. Styled with **Chakra UI**, and powered by **Zustand** for state management.
 
+
 ---
+
+## 🌐 Live Demo
+
+This app is deployed here:  
+🔗 [https://online-store-project.onrender.com](https://online-store-project.onrender.com)
+
+
+---
+
 
 ## 🚀 Tech Stack
 

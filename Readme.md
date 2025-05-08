@@ -8,7 +8,7 @@ A responsive full-stack web application for managing electronic products, built 
 
 ## 🌐 Live Demo
 
-This app is deployed here:  
+This app is deployed here (takes 1 min to load):  
 🔗 [https://online-store-project.onrender.com](https://online-store-project.onrender.com)
 
 
